@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang:"tr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Hava Durumu
+    </title>
+
+    <link rel="icon" href="weather.jpg">
+    <link href="weather.css" type="text/css" rel="stylesheet" />
+    <script src="weather.js"></script>
+
+</head>
+
+<body>
+    <div class="all">
+        <div class="left">
+            <div class="left-top">
+                <div>
+                    <span>İl adı yazınız:</span>
+                </div>
+                <div>
+                    <input type="text" id="textbox-city" class="textbox-city"/>
+                </div>
+                <div>
+                    <button type="submit" id="btn" class="btn"> Ara </button>
+                </div>
+            </div>
+            <div class="left-bottom">
+                <div>
+                    <form id="myForm">
+                        <label for="selectCity">İl seçiniz:</label>
+                        <select id="selectCity" size="81">
+                          <option>İl seçiniz...</option>
+                        </select>
+                      </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="right" id="right-side">
+        </div>
+    </div>
+</body>
+
+</html>
